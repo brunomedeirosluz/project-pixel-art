@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/1224149.png);
+   
+}
+
+#header {
+    margin: auto;
+    width: fit-content;
+    margin-top: 30px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#title {
+    margin: auto;
+    width: fit-content;
+    margin-top: 50px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#color-palette {
+    margin: auto;
+    width: fit-content;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.color {
+    height: 80px;
+    width: 80px;
+    border:1px solid black;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.color:nth-child(1){
+    background-color: black;
+}
+.color:nth-child(2){
+    background-color: red;
+}
+.color:nth-child(3){
+    background-color: green;
+}
+.color:nth-child(4){
+    background-color: blue;
+}
+
+#buttons {
+    margin: auto;
+    width: fit-content;
+}
+
+#button-random-color {
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+#clear-board {
+    margin: 5px;
+    border-radius: 10px;
+    padding: 3px;
+}
+#generate-board {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.linha {
+    height: 40px;
+}
+
+.pixel {
+    width: 40px;
+    height: 40px;
+    border: solid black 1px;
+    background-color: white;  
+    display: inline-block;
+}  
+
+#pixel-board{
+    margin: auto;
+    width:fit-content;
+    margin-top: 25px;
+}
+
+#board-size {
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    padding: 3px;
+}
+
+#dev {
+    margin: auto;
+    width: fit-content;
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    
+}
